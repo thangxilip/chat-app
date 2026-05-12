@@ -1,0 +1,61 @@
+## .NET / C# / ASP.NET Core
+
+# Build output
+bin/
+obj/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+packages/
+!packages/repositories.config
+.nuget/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Rider / JetBrains
+.idea/
+*.sln.iml
+
+# Test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+coverage*/
+[Tt]est[Rr]esult*/
+
+# Publish output
+publish/
+PublishProfiles/
+
+# ASP.NET
+wwwroot/
+*.pubxml
+*.pubxml.user
+
+# Logs
+logs/
+*.log
+*.log.*
+
+# Environment / secrets
+appsettings.local.json
+appsettings.*.local.json
+.env
+.env.*
+!.env.example
+secrets.json
+**/*.pfx
+**/*.key
+**/*.pem
+
+# OS
+.DS_Store
+Thumbs.db

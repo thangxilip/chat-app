@@ -1,0 +1,6 @@
+@ChatApi_HostAddress = http://localhost:5013
+
+GET {{ChatApi_HostAddress}}/health
+Accept: application/json
+
+###

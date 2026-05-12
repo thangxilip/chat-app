@@ -1,0 +1,15 @@
+**/.DS_Store
+**/.git
+**/.gitignore
+**/.vs
+**/.vscode
+**/.idea
+
+**/bin
+**/obj
+**/TestResults
+**/*.user
+**/*.suo
+
+Dockerfile
+README.md
