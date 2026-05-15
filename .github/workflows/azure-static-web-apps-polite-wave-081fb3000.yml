@@ -47,7 +47,7 @@ jobs:
           ###### End of Repository/Build Configurations ######
         env:
           VITE_CHAT_HUB_URL: "https://chatapi.proudstone-69f480c0.eastasia.azurecontainerapps.io/hubs/chat"
-          NODE_VERSION: "22.12.0"
+          NODE_VERSION: "22.13.0"
 
   close_pull_request_job:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
